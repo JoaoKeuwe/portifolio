@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(144, 140, 140);
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+li {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+
+section {
+    display: inline-block;
+    border: 2px solid;
+    
+}
+
+.picture {
+    width: 200px;
+    border-radius: 30%;
+    border: 3px solid;
+    border-color: darkred;
+}
+
+.sobre-mim {
+    position: relative;
+    display: inline-block;
+    margin-left: 250px;
+    top: -310px;
+    width: 560px;
+    font-size: 18pt;
+    line-height: 30px;
+}
+
+.habilidades {
+    position: relative;
+    margin-left: -800px;
+    margin-right:100px;
+    width: 400px;
+    height: 300px;
+    top: -1px;
+    border-radius: 10%;
+    text-align: center;
+
+}
+
+.formação {
+   position: relative;
+   top: 16px;
+   width: 400px;
+   text-align: center;
+   border-radius: 10%;
+}
+
+.social-media{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: rgb(0, 0, 0); /*alterar cor*/
+    padding: 1rem 4rem;
+    border: 1px solid #000000; /*ALTERAR COR*/
+    max-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out ;
+    border-radius: 20%;
+   
+}
+
+#git {
+    position: relative;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+#linkedin {
+    position: relative;
+    margin-left: 350px;
+    font-size: 30px;
+}
+
+a:hover {
+    background-color: rgb(228, 97, 97);
+}
+
+/*.bg {
+    background-image: url("https://static.wixstatic.com/media/b7e9c3_9c6c3a482e194e48bed2bd0304272bf6~mv2_d_3840_2160_s_2.png/v1/crop/x_514,y_0,w_2812,h_2160/fill/w_976,h_735,al_c,q_90,usm_0.66_1.00_0.01/blue-smoke-background-png.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 10px;
+}*/
+
+.paragrafo {
+    color: rgb(255, 255, 255);
+}
+.lista {
+    font-size: 20px;
+    color: rgb(206, 59, 59);
+}
